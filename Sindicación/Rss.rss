@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>Agricultura para todos</title>
+ <link>https://agriculturaparatodos.neocities.org/index.html</link>
+ <description></description>
+ <item>
+   <title>El tiempo en Granada</title>
+   <link>http://www.aemet.es/documentos_d/eltiempo/prediccion/avisos/rss/CAP_AFAP6118_RSS.xml</link>
+   <description>Alertas principales sobre los fenomenos metororlogicos en Granada</description>
+ </item>
+ <item>
+   <title>Noticias</title>
+   <link>https://agriculturaparatodos.neocities.org/Contenido/Html/Noticias.html</link>
+   <description>Noticias del mundo agrario</description>
+ </item>
+</channel>
+</rss>

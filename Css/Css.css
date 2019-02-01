@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #d6dbdf;
+}
+
+aside h1 {
+  text-decoration-line:underline;
+}
+
+/* Esta es la parte del header */
+header, .main, footer {
+  width: 90%;
+  max-width:1000px;
+  margin:20px auto;
+}
+
+header nav {
+  background: #28b463;
+  overflow: hidden;
+  border-radius:5px;
+}/* Oculta  los float left y los float righ qque se superponen */
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: #239b56;
+}
+
+/* Esta la del main */
+.main .articles{
+  width: 68.5%;
+  margin-right: 1.5%;
+  float: left;
+}
+
+.main .articles article {
+  padding: 20px;
+  background: #abebc6;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Esta es la parte del lateral */
+aside {
+ width: 30%;
+ background:  #f4d03f;
+ float: left;
+ padding: 20px;
+ box-sizing: border-box;
+ /* Arregla el problema del pading de la caja */
+ border-radius:5px;
+}/* Al poner otra vez la medida de width lo volvemos a poner abajo por lo que tenemos que ponerle el float left al aside para que vuelva a salir a la derecha */
+
+footer {
+  background: #000;
+  color: #fff;
+  clear: both; /* Para limpiar el rastro y poner un salgo de linea  */
+  padding: 10px 0px;
+  text-align: center;
+  border-radius:5px;
+}
+
+aside img {
+  width: 120px;
+  height: 100px;
+  padding: 2px;
+  border-radius:10px;
+}
+
+aside img:hover {
+  filter: saturate(180%);
+}
